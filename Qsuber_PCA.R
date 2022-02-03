@@ -17,7 +17,7 @@ library(adegenet)
 library(pcaMethods)
 
 # Read the genepop file
-my_geno = read.genepop("17_pops_14_loci_DIPLOID.gen", ncode=3)
+my_geno = read.genepop("17_pops_13_loci_DIPLOID.gen", ncode=3)
 geno_data = my_geno$tab
 
 popnames = gsub("_", "", gsub("[[:digit:]]", "", row.names(geno_data)))
