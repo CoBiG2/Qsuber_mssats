@@ -39,6 +39,7 @@ legend(1.005, 1.05,
        pch=unique(pop_colours),
        col=unique(pop_colours))
 dev.off()
+print(msst_pca@R2)
 
 
 # Read the neutral loci genepop file
@@ -65,3 +66,4 @@ legend(1.005, 1.05,
        col=unique(pop_colours))
 
 dev.off()
+print(msst_pca@R2)
